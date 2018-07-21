@@ -16,6 +16,5 @@ CHIP Or {
     PARTS:
     Not(in=a, out=x);
     Not(in=b, out=y);
-    And(a=x, b=y, out=z);
-    Not(in=z, out=out);
+    Nan(a=x, b=y, out=out);
 }
