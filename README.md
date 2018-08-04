@@ -25,6 +25,7 @@ The following table lists the total number of Nand gates and D flip-flops used b
 |Add16|400|0|400|
 |Inc16|400|0|400|
 |Mux8Way16|896|0|896|
+|PC|933|16|949|
 |ALU|1294|0|1294|
 |RAM8|1955|128|2083|
 |RAM64|16571|1024|17595|
