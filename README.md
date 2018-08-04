@@ -35,4 +35,4 @@ The following table lists the total number of Nand gates and D flip-flops used b
 
 (calculated using the [gate_counter.py](https://github.com/ronaldotd/tecs/blob/master/gate_counter.py) script)
 
-Note how the RAMn chips uses exactly one DFF for each storage bit, e.g., RAM64 has capacity for 64 16-bit words(64 * 16 = 1024).
+Note how the RAMn chips use exactly one DFF for each storage bit, e.g., RAM64 has capacity for 64 16-bit words(64 * 16 = 1024).
