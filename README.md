@@ -1,6 +1,6 @@
 These are my solutions to the implementations proposed in the ["The Elements of Computing Systems"](https://mitpress.mit.edu/books/elements-computing-systems) book.
 
-The following table lists the total number of Nand gates and D flip-flops used by the current implementation of the chips. (calculated using the [gate_counter.py](https://github.com/ronaldotd/tecs/blob/master/gate_counter.py) script)
+The following table lists the total number of Nand gates and D flip-flops used by the current implementation of the chips. 
 
 |Chip|Nand count|DFF count|Total|
 |---|--:|--:|--:|
@@ -32,3 +32,7 @@ The following table lists the total number of Nand gates and D flip-flops used b
 |RAM512|133499|8192|141691|
 |RAM4K|1068923|65536|1134459|
 |RAM16K|4276091|262144|4538235|
+
+(calculated using the [gate_counter.py](https://github.com/ronaldotd/tecs/blob/master/gate_counter.py) script)
+
+Note how the RAMn chips uses exactly one DFF for each storage bit, e.g., RAM64 has capacity for 64 16-bit words(64 * 16 = 1024).
